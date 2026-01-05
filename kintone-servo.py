@@ -5,8 +5,8 @@ from time import sleep
 pi = pigpio.pi()
 gpio_pin = 18
 
-DOMAIN = "yqozl5nyoqxf.kintone.com"
-API_TOKEN = "P2gOuITnHxDLPn25OpzozJUO6UboJCQdUlMad67y"
+DOMAIN = "############.kintone.com"
+API_TOKEN = "#######################################"
 APP_ID = "2"
 url = f"https://{DOMAIN}/k/v1/records.json"
 headers = {"X-Cybozu-API-Token": API_TOKEN}
